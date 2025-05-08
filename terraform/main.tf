@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "frontend" {
   ami           = "ami-0f88e80871fd81e91"
   instance_type = "t2.micro"
-  key_name      = "ks8"
+  key_name      = "mubeen0326"
 
   tags = {
     Name = "c8.local"
@@ -19,7 +19,7 @@ resource "aws_instance" "frontend" {
 resource "aws_instance" "backend" {
   ami           = "ami-084568db4383264d4"
   instance_type = "t2.micro"
-  key_name      = "ks8"
+  key_name      = "mubeen0326"
 
   tags = {
     Name = "u21.local"
